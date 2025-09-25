@@ -30,7 +30,7 @@ export default function App() {
             {/* Brand */}
             <a href="#inicio" className="flex items-center gap-3">
               <img
-                src="/logo.jpeg"
+                src={`${import.meta.env.BASE_URL}logo.jpeg`}
                 alt="Logo Dra. Cristina Urrutia — Estética Orofacial"
                 className="w-10 h-10 rounded-full object-cover"
                 style={{ boxShadow: "inset 0 0 0 2px #69A9D1", background: "#fff" }}
@@ -175,7 +175,7 @@ export default function App() {
             >
               <div className="aspect-[4/5] w-full max-w-md lg:max-w-none mx-auto rounded-3xl shadow-2xl overflow-hidden bg-gray-50">
                 <img
-                  src="/hero.jpeg"
+                  src={`${import.meta.env.BASE_URL}hero.jpeg`}
                   alt="Atención de rinomodelación — Dra. Cristina Urrutia"
                   className="w-full h-full object-cover"
                 />
