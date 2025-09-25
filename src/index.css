@@ -1,0 +1,13 @@
+/* Tailwind v4: una sola importación */
+@import "tailwindcss";
+
+/* (tu CSS global opcional) */
+:root {
+  --blue: #69A9D1;
+  --gold: #CFA640;
+}
+html, body {
+  background: #fff;
+  color: #111827;
+  font-family: Inter, ui-sans-serif, system-ui;
+}
