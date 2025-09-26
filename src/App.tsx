@@ -39,7 +39,7 @@ export default function App() {
                 <p className="font-extrabold tracking-tight text-[15px]" style={{ color: COLORS.gold }}>
                   DRA. CRISTINA URRUTIA
                 </p>
-                <p className="text-[12px] text-gray-500">Endodoncia • Estética Orofacial</p>
+                <p className="text-[12px] text-gray-500">Estética Orofacial</p>
               </div>
             </a>
 
@@ -126,7 +126,7 @@ export default function App() {
                   className="bg-clip-text text-transparent"
                   style={{ backgroundImage: `linear-gradient(90deg, ${COLORS.blue}, ${COLORS.gold})` }}
                 >
-                  Endodoncia & Estética Facial de Alto Nivel
+                  Estética Facial de Alto Nivel
                 </span>
               </motion.h1>
               <motion.p
@@ -432,16 +432,6 @@ function Feature({ icon, title, subtitle }: { icon: string; title: string; subti
 
 const cards = [
   {
-    title: "Endodoncia (Tratamiento de Conducto)",
-    desc: "Extirpación de pulpa y sellado biocompatible para conservar tu pieza dental con el máximo confort y durabilidad.",
-    bullets: ["Diagnóstico con imágenes", "Anestesia asistida", "Sellado termoplástico"],
-  },
-  {
-    title: "Extracción Dental de Baja Invasión",
-    desc: "Avulsión controlada con instrumental de última generación para un postoperatorio más cómodo.",
-    bullets: ["Evaluación previa completa", "Cirugía mínimamente invasiva", "Indicaciones claras de cuidado"],
-  },
-  {
     title: "Blanqueamiento Dental Profesional",
     desc: "Reduce varios tonos con seguridad y resultados luminosos, reforzando el esmalte y tu rutina de higiene.",
     bullets: ["Técnica en consulta", "Kits supervisados", "Control de sensibilidad"],
@@ -450,11 +440,6 @@ const cards = [
     title: "Estética Orofacial",
     desc: "Armonización facial suave y natural con enfoque médico y proporciones estéticas.",
     bullets: ["Evaluación facial integral", "Plan a medida", "Resultados naturales"],
-  },
-  {
-    title: "Urgencias Odontológicas",
-    desc: "Atención oportuna para dolor agudo, fracturas o infecciones.",
-    bullets: ["Respuesta rápida", "Protocolos de analgesia", "Derivación si corresponde"],
   },
   {
     title: "Videoconsulta",
